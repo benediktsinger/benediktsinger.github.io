@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333333; /* Dark grey background */
+    color: #CCCCCC; /* Light grey text color */
+  }
+  
+  .container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    border: 2px solid #FFA500; /* Dark orange border */
+    border-radius: 10px;
+    background-color: #333333;
+    margin: 40px auto; /* Center the container and add distance from the top */
+  }
+
+  .years {
+    font-size: 16px;
+    color: #00BFFF; /* Purple for years */
+    font-weight: bold;
+    padding-right: 20px;
+    vertical-align: top;
+  }
+
+  table {
+    margin-bottom: 20px;
+  }
+  
+  /* Add padding to the table cells */
+  td {
+    padding: 5px;
+  }
+
+  h1, h2 {
+    color: #FFA500; /* Dark orange */
+    text-align: justify; /* Center the headings */
+  }
+  
+  /* Increase font size and make h1 bold */
+  h.unnumbered {
+    color: #FFA500; /* Dark orange */
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 45px;
+  }
+  
+  /* Justify text in the container */
+  .container p {
+    text-align: justify;
+  }
+  
+  a {
+    color: #FFA500; /* Dark orange */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #800080; /* Purple on hover */
+    text-decoration: underline;
+  }
+  
+  .smallcaps {
+    font-variant: small-caps;
+  }
+  
+  .math {
+    font-size: 0; /* Remove unwanted space */
+  }
+  
+  /* Add custom font size for FontAwesome icons */
+  .contact-icons {
+    font-size: 1.5em;
+  }
+  
+  /* Add background and color to links */
+  a {
+    display: inline-block; /* Display links as blocks to add padding */
+    color: #FFA500; /* Black text color */
+    padding: 3px 5px;
+    border-radius: 3px;
+  }
+  
+  /* Adjust font size for smaller screens (mobile devices) */
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
+    }
+  }
+  
