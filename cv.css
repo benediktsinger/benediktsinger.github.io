@@ -85,30 +85,49 @@ body {
   }
   
   /* Adjust font size for smaller screens (mobile devices) */
-
-  /* Reduce the font size for years in the table */
-  .years {
-    font-size: 14px;
-  }
-
-  /* Adjust the font size for contact icons on mobile devices */
-  .contact-icons a {
-    font-size: 18px;
-    margin-right: 5px;
-  }
-
   
   @media only screen and (max-width: 600px) {
     .years {
-      font-size: 14px;
+      font-size: 12px;
     }
-
+    
     .container {
-        font-size: 14px:
+      font-size: 12px;
+      padding: 10px;
     }
     
     .contact-icons a {
-      font-size: 18px;
-      margin-right: 5px;
+      font-size: 16px;
+      margin-right: 3px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    td {
+      padding: 2px;
+    }
+    
+    /* Hide the years column in the table for mobile */
+    td.years {
+      display: none;
+    }
+    
+    /* Make the table cells stack vertically */
+    tr {
+      display: block;
+    }
+    
+    /* Add some margin between the table rows */
+    tr + tr {
+      margin-top: 10px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    h.unnumbered {
+      font-size: 30px;
+      margin-top: 20px;
     }
   }
