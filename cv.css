@@ -85,11 +85,13 @@ body {
   }
   
   /* Adjust font size for smaller screens (mobile devices) */
-/* Adjust font size for smaller screens (mobile devices) */
-@media screen and (max-width: 600px) {
-  .container {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    max-width: 90%; /* Adjust the maximum width for smaller screens */
+
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 18px; /* Adjust font size for smaller screens */
+      max-width: 90%; /* Adjust the maximum width for smaller screens */
+    }
+
   }
 
   /* Reduce the font size for years in the table */
@@ -102,5 +104,5 @@ body {
     font-size: 18px;
     margin-right: 5px;
   }
-}
+
   
